@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/umdocsmedit/UMREDCap.svg?branch=master)](https://travis-ci.org/umdocsmedit/UMREDCap)
+
 # UMREDCap
 
 UMREDCap is a python pacakge for the use of MedIT project and station managers
