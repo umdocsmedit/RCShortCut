@@ -1,3 +1,7 @@
+requests
+numpy
+pandas
+
 pytest
 flake8
 mypy
