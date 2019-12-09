@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup  # type: ignore
 
 
 def read(fname):
