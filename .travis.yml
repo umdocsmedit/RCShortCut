@@ -3,6 +3,7 @@ language: python
 # install dependencies
 install:
     - python -m pip install -r requirements.txt
+    - openssl aes-256-cbc -K $encrypted_63181b082873_key -iv $encrypted_63181b082873_iv -in creds.json.enc -out creds.json -d
 
 script:
     - python -m pytest --flake8 --mypy
