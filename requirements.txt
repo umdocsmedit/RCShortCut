@@ -1,6 +1,7 @@
 requests
 numpy
 pandas
+pycap
 
 pytest
 flake8
