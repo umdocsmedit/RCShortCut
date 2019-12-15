@@ -11,7 +11,7 @@ class creds:
 
     def check_envs(self):
         try:
-            os.environ['main_token']
+            os.environ['new_redcap']
         except KeyError:
             return False
 
@@ -22,8 +22,8 @@ class creds:
             return json.loads(open(self.file).read())
         else:
             return {
-                    'main_token': os.environ['main_token'],
-                    'test_token': os.environ['test_token']
+                    'new_redcap': os.environ['new_redcap'],
+                    'test_redcap': os.environ['test_redcap']
                     }
 
 
